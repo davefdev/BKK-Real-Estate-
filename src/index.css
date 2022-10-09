@@ -5,8 +5,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
-  --primary-dark: f;
-  --primary-light: k;
+  --primary-dark: rgb(14, 30, 181);
+  --primary-light: rgba(14, 167, 181, 0.977);
+}
+
+.icon {
+  color: var(--primary-dark)
 }
 
 @layer base {
@@ -15,7 +19,7 @@
   }
 
   li {
-    @apply px-4;
+    @apply p-4 text-xl;
   }
 
   h1 {
@@ -28,5 +32,11 @@
 
   h3 {
     @apply text-xl font-bold;
+  }
+  button {
+    @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md;
+  }
+  .icon {
+    @apply text-2xl cursor-pointer
   }
 }

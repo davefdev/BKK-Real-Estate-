@@ -49,7 +49,7 @@ const Navbar = () => {
             <button>Search</button>
             <button>Account</button>
           </div>
-          <div className="">
+          <div className="icon">
             <FaFacebook className="icon" />
             <FaTwitter className="icon" />
             <FaInstagram className="icon" />
