@@ -1,3 +1,4 @@
+import { useState } from "react";
 import React from "react";
 import { BsPerson } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
@@ -12,6 +13,11 @@ import {
 } from "react-icons/fa";
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
   return (
     <div className="flex justify-between items-center h-20 px-4">
       <div>
@@ -31,30 +37,37 @@ const Navbar = () => {
 
       {/* hamburger */}
 
-      <div className="md:hidden">
-        <HiOutlineMenuAlt4 size={20} />
+      <div onClick={handleNav} className="md:hidden">
+        {nav ? <AiOutlineClose size={20} /> : <HiOutlineMenuAlt4 size={20} />}
       </div>
 
       {/* mobile dropdown menu */}
 
-      <div className="absolute left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col">
+      <div
+        onClick={handleNav}
+        className={
+          nav
+            ? "absolute left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col"
+            : "absolute left-[-100%]"
+        }
+      >
         <ul>
           <h1>BKK REAL</h1>
-          <li>Home</li>
-          <li>Areas</li>
-          <li>Real Estate</li>
-          <li>Booking</li>
-          <li>Viewings</li>
-          <div>
-            <button>Search</button>
+          <li className="border-b">Home</li>
+          <li className="border-b">Areas</li>
+          <li className="border-b">Real Estate</li>
+          <li className="border-b">Booking</li>
+          <li className="border-b">Viewings</li>
+          <div className="flex flex-col">
+            <button className="my-6">Search</button>
             <button>Account</button>
           </div>
-          <div className="icon">
-            <FaFacebook className="icon" />
-            <FaTwitter className="icon" />
-            <FaInstagram className="icon" />
-            <FaPinterest className="icon" />
-            <FaYoutube className="icon" />
+          <div className="flex justify-between my-6">
+            <FaFacebook className="icons" />
+            <FaTwitter className="icons" />
+            <FaInstagram className="icons" />
+            <FaPinterest className="icons" />
+            <FaYoutube className="icons" />
           </div>
         </ul>
       </div>
