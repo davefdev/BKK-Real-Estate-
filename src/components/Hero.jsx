@@ -16,9 +16,9 @@ const Hero = () => {
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4 ">
         <h1>Premium Real Estate</h1>
         <h2>Best Cando Location in BKK</h2>
-        <form>
+        <form className="flex justify-between items-center max-w-[700px] mx-auto w-full border p-1 rounded-md text-black bg-gray-100/90">
           <div>
-            <input type="text" placeholder="Property type" />
+            <input type="text" placeholder="Property type" className="bg-transparent"/>
           </div>
           <div>
             <button>
