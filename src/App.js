@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Properties from "./components/Properties";
+import Search from "./components/Search";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Properties />
+      <Search />
     </div>
   );
 }
