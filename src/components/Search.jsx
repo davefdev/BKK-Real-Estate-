@@ -3,40 +3,49 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 import { MdOutlineTravelExplore } from "react-icons/md";
 const Search = () => {
   return (
-    <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16 ">
-      <div className="border-2 border-indigo-200 lg:col-span-2 flex flex-col justify-evenly">
+    <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16">
+      <div className="lg:col-span-2 flex flex-col justify-evenly">
         <div>
-          <h2> TROPICAL PARADISE CONDOS</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
-            sed error laborum nesciunt enim dicta ex dolores exercitationem sint
-            dolor iste, cum fuga pariatur facere totam magnam voluptatem
-            explicabo animi.
+          <h2>LUXURY CONDOS FOR YOU</h2>
+          <p className="py-4">
+            Come experience the very pinnacle of luxury Caribbean all-inclusive
+            vacations for couples at BEACHES Resorts. Our luxury beach resorts,
+            set along the most gorgeous tropical settings and exquisite beaches
+            in Saint Lucia, Jamaica, Antigua, The Bahamas, Grenada, Barbados and
+            Curaçao, feature unlimited gourmet dining, unique bars serving
+            premium liquors and wines, and every land and water sport, including
+            complimentary green fees at our golf resorts and certified scuba
+            diving at most resorts. If you are planning a wedding, BEACHES is
+            the leader in Caribbean destination weddings and honeymoon packages.
           </p>
         </div>
+
         <div className="grid sm:grid-cols-2 gap-8 py-4">
           <div className="flex flex-col lg:flex-row items-center text-center">
             <button>
-              <RiCustomerService2Fill size={50}/>
+              <RiCustomerService2Fill size={50} />
             </button>
+            <div>
+              <h3 className="py-2">LEADING SERVICE</h3>
+              <p className="py-1">
+                ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW
+              </p>
+            </div>
           </div>
-          <div>
-            <h3>amazing service</h3>
-            <p>GYM SAUNA POL CAR CONSIERGE</p>
-          </div>
+
           <div className="flex flex-col lg:flex-row items-center text-center">
             <button>
-              <RiCustomerService2Fill size={50}/>
+              <MdOutlineTravelExplore size={50} />
             </button>
-          </div>
-          <div>
-            <h3>amazing service</h3>
-            <p>GYM SAUNA POL CAR CONSIERGE</p>
+            <div>
+              <h3 className="py-2">LEADING SERVICE</h3>
+              <p className="py-1">
+                ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
-      <div className=" border-2 border-indigo-200"></div>
     </div>
   );
 };
