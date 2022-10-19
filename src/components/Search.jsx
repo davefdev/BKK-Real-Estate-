@@ -38,13 +38,27 @@ const Search = () => {
               <MdOutlineTravelExplore size={50} />
             </button>
             <div>
-              <h3 className="py-2">LEADING SERVICE</h3>
+              <h3 className="py-2">ONLY THE BEST</h3>
               <p className="py-1">
                 ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW
               </p>
             </div>
           </div>
         </div>
+
+      </div>
+
+      <div>
+right
+<div>
+
+<p></p>
+<p></p>
+<p></p>
+</div>
+
+
+
       </div>
     </div>
   );
