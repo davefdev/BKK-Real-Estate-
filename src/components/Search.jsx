@@ -45,20 +45,15 @@ const Search = () => {
             </div>
           </div>
         </div>
-
       </div>
 
       <div>
-right
-<div>
-
-<p></p>
-<p></p>
-<p></p>
-</div>
-
-
-
+        right
+        <div className="border flex flex-col items-center text-center">
+          <p>GET DISCOUNT OF 10% WITH REFERRAL</p>
+          <p className="py-4">24 HOURS LEFT</p>
+          <p className="bg-gray-700 text-gray-200 py-2">BOOK NOW</p>
+        </div>
       </div>
     </div>
   );
