@@ -54,15 +54,26 @@ const Search = () => {
           <p className="bg-gray-700 text-gray-200 py-2 w-full">BOOK NOW</p>
         </div>
 
-        <form>
-          <div>
+        <form className="w-full">
+          <div className="flex flex-col my-2">
             <label>location</label>
-            <select name="" id="">
+            <select className="border rounded-md p-2">
               <option value="">Saraburi</option>
               <option value="">Nonthaburi</option>
               <option value="">Roi Et</option>
               <option value="">Sukhumvit</option>
             </select>
+          </div>
+          <div className="flex flex-col my-4">
+            <label>Start date</label>
+            <input className="border rounded-md p-2" type="date" />
+          </div>
+          <div className="flex flex-col my-2">
+            <label>End date</label>
+            <input className="border rounded-md p-2" type="date" />
+          </div>
+          <div>
+            <button className="w-full my-4 ">PRICE AND AVAILABILITY</button>
           </div>
         </form>
       </div>

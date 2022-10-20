@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Properties from "./components/Properties";
 import Search from "./components/Search";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Properties />
       <Search />
+      <Gallery />
     </div>
   );
 }
