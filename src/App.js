@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Properties from "./components/Properties";
 import Search from "./components/Search";
 import Gallery from "./components/Gallery";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Properties />
       <Search />
       <Gallery />
+      <Carousel/>
     </div>
   );
 }
