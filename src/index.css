@@ -19,7 +19,7 @@
   }
 
   li {
-    @apply p-4;
+    @apply p-4 list-none;
   }
 
   h1 {
@@ -39,5 +39,4 @@
   .icons {
     @apply text-2xl cursor-pointer;
   }
-  
 }

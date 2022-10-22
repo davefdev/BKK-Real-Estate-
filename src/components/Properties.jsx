@@ -8,7 +8,7 @@ import Pic5 from "../assets/pic5.jpg";
 const Properties = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 text-center">
-      <h1>Affordable to High-End Living </h1>
+      <h1>Affordable to High-End Living</h1>
       <p className="py-5">Living in the majestic paradise of Thailand</p>
       <div className="grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4">
         <img

@@ -10,12 +10,12 @@ import GalleryCard from "./GalleryCard";
 const Gallery = () => {
   return (
     <div className="max-w-[1240px] mx-auto grid sm:grid-cols-2 lg:grid-cols-3 px-4 py-16 gap-5">
-      <GalleryCard bg={Pic1} text="pic1" />
-      <GalleryCard bg={Pic2} text="pic2" />
-      <GalleryCard bg={Pic3} text="pic3" />
-      <GalleryCard bg={Pic4} text="pic4" />
-      <GalleryCard bg={Pic5} text="pic5" />
-      <GalleryCard bg={Pic6} text="pic6" />
+      <GalleryCard bg={Pic1} text="Sukhumvit" />
+      <GalleryCard bg={Pic2} text="Saraburi" />
+      <GalleryCard bg={Pic3} text="Nonthaburi" />
+      <GalleryCard bg={Pic4} text="Ekkamai" />
+      <GalleryCard bg={Pic5} text="Tonglor" />
+      <GalleryCard bg={Pic6} text="JJ Mall" />
     </div>
   );
 };
