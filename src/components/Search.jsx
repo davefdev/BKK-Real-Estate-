@@ -7,8 +7,13 @@ const Search = () => {
       <div className="lg:col-span-2 flex flex-col justify-evenly">
         <div>
           <h2>LUXURY CONDOS FOR YOU</h2>
-          <p className="py-4">Modern, sleek and situated in the heart of the action.
-          Step into the luxurious lifestyle you've always dreamed of in our prestigious condos. From the chic design to the high-end finishes, these residences are truly the epitome of opulence. They don't break the bank either! </p>
+          <p className="py-4">
+            Modern, sleek and situated in the heart of the action. Step into the
+            luxurious lifestyle you've always dreamed of in our prestigious
+            condos. From the chic design to the high-end finishes, these
+            residences are truly the epitome of opulence. They don't break the
+            bank either!{" "}
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-8 py-4">
@@ -30,9 +35,7 @@ const Search = () => {
             </button>
             <div>
               <h3 className="py-2">ONLY THE BEST</h3>
-              <p className="py-1">
-                RIGHT IN THE HEART OF THE ACTION
-              </p>
+              <p className="py-1">RIGHT IN THE HEART OF THE ACTION</p>
             </div>
           </div>
         </div>

@@ -18,11 +18,19 @@ const Hero = () => {
         <h2 className="py-4">Best Cando Locations in BKK</h2>
         <form className="flex justify-between items-center max-w-[500px] mx-auto w-full border p-1 rounded-md text-black bg-gray-100/90">
           <div>
-            <input type="text" placeholder="Property type" className="bg-transparent w-[300px] sm:w-[400px] focus:outline-none"/>
+            <input
+              type="text"
+              placeholder="Property type"
+              className="bg-transparent w-[300px] sm:w-[400px] focus:outline-none"
+            />
           </div>
           <div>
             <button>
-              <AiOutlineSearch size={20} className="icons" style={{color: "#ffff"}}/>
+              <AiOutlineSearch
+                size={20}
+                className="icons"
+                style={{ color: "#ffff" }}
+              />
             </button>
           </div>
         </form>
